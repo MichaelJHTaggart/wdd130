@@ -23,11 +23,6 @@ aside {
   text-align: center;
 }
 
-aside img {
-  width: 200px;
-  height: auto;
-}
-
 h1 {
   color: darkblue;
 }
@@ -38,6 +33,11 @@ main img {
   border: 1px solid black;
   padding: 2px;
   box-shadow: 0 0 30px gray;
+}
+
+aside img {
+  width: 200px;
+  height: auto;
 }
 
 p {
