@@ -8,7 +8,6 @@
   max-width: 840px;
   margin: 0 auto;
   display: grid;
-
 }
 
 :root {
@@ -44,7 +43,7 @@ aside {
 
 h1 {
   color: darkblue;
-  border-bottom: 1px black;
+  border-bottom: 1px solid black;
 }
 
 main img {
