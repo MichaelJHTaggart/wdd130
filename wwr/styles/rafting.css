@@ -142,3 +142,175 @@ footer {
   align-items: center;
   gap: 103px;
 }
+
+.contact-main {
+  width: 840px;
+  margin: 0 auto;
+}
+
+.contact-header {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #fff;
+  margin-bottom: 16px;
+  border: 1px solid black;
+}
+
+.contact-header h1 {
+  position: static;
+  opacity: 1;
+  background-color: transparent;
+  color: var(--accent1-color);
+  font-family: var(--heading-font);
+  padding: 0;
+  margin-bottom: 0.5rem;
+}
+
+.contact-header p {
+  margin: 0.25rem 0;
+  padding: 0;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.map-section {
+  background-color: #fff;
+  border: 1px solid black;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map-section iframe {
+  width: 100%;
+  max-width: 100%;
+  height: 450px;
+  border: none;
+}
+
+.contact-form-section {
+  background-color: #fff;
+  border: 1px solid black;
+  padding: 16px;
+  margin: 0;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  font-family: var(--body-font);
+  font-size: 1rem;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+fieldset legend {
+  font-weight: bold;
+  padding: 0 0.5rem;
+  color: var(--secondary-color);
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.radio-group label {
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 0.5rem;
+}
+
+.checkbox-group label {
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-group input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+.form-group button[type="submit"] {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-group button[type="submit"]:hover {
+  background-color: var(--accent3-color);
+}
+
+.employee-section {
+  background-color: #fff;
+  border: 1px solid black;
+  padding: 16px;
+  text-align: center;
+  height: auto;
+}
+
+.employee-section h2 {
+  margin-bottom: 1rem;
+}
+
+.employee-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.employee {
+  margin: 0;
+  text-align: center;
+}
+
+.employee img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+}
+
+.employee figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
